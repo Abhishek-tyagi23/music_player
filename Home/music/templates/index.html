@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="stylesheet" href="../static/music.css">
+  <style>
+    .botton-content {
+      background-color: rgb(1, 54, 63);
+      position: sticky;
+      bottom: 0px;
+      /* width: 100%; */
+      display: none;
+    }
+    .bootom-left2 button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 32px;
+   cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(0, 90, 112);
+}
+  </style>
+
+</head>
+
+<body>
+  <!-- navbar section -->
+  <nav class="navbar navbar-expand-lg  px-5">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#"><img src="../static/logo2.jpg" alt="" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item text-light home-svg">
+            <a class="nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+              </svg></a>
+          </li>
+
+          <input class="me-2" type="search" placeholder="Enter Song name here..." aria-label="Search">
+
+
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success " type="submit">Sign up</button>
+          <button class="btn btn-outline-success mx-4" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero section -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 ">
+        <div class="sidebar ">
+
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex">
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-collection-play-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zm6.258-6.437a.5.5 0 0 1 .507.013l4 2.5a.5.5 0 0 1 0 .848l-4 2.5A.5.5 0 0 1 6 12V7a.5.5 0 0 1 .258-.437" />
+              </svg>
+
+              <h4>Your Library</h4>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="Add-svg" fill="currentColor" class="bi bi-plus-lg"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+            </svg>
+
+          </div>
+
+          <div class="card2 mt-4">
+            <div class="card-body2">
+              <h5 class="card-title text-light">Create Your First playlist</h5>
+              <p>Some quick example text to.</p>
+              <button class="btn ">Create playlist</button>
+            </div>
+          </div>
+          <div class="card2 ">
+            <div class="card-body2">
+              <h5 class="card-title text-light">Card title</h5>
+              <p>Some quick example text to.</p>
+              <button class="btn ">Create playlist</button>
+            </div>
+          </div>
+          <ul class="d-flex">
+            <li class="col-md-2">Legal</li>
+            <li class="col-md-3">About us</li>
+            <li class="col-md-2">Cookies</li>
+
+          </ul>
+          <ul class="d-flex mb-3">
+            <li class="col-md-2">Privacy</li>
+            <li class="col-md-3">About us</li>
+          </ul>
+
+          <div class="last-btn d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-globe"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+            </svg>
+            <p class="text-light mt-2 m-2">English</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- container  -->
+      <div class="col-md-9 ">
+        <div class="main-container row">
+          <h2 class='heading mx-0'>Popular Albums</h2>
+
+
+          {% for card in cards %}
+          <div class="card" style=" height: 238px;" data-audio="../static/music/{{ card.audio }}">
+            <img src='../static/music/{{ card.thumbnail }}' class="card-img-top" style="height: 120px;" alt="...">
+            <div class="card-body">
+              <!-- <p class="text-light">../static/music/{{ card.audio }}</p> -->
+              <p class="card-text">{{card.title}}</p>
+              <p class="card-text2 text-info">{{card.artist}}</p>
+            </div>
+
+            <audio id="music-player" style="display:none;" controls>
+              <source src="../static/music/{{ card.audio }}" type="audio/mp4">
+
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          {% endfor %}
+          <!-- <div class="card">
+            <img src="../static/sidhu.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Sidhu moose wala</p>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid botton-content"
+    style="background-image: linear-gradient(to right,rgb(25, 39, 38),rgb(19, 61, 85),rgb(5, 59, 68));">
+    <div class="botton-content2">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="bootom-left">
+            <div class="d-flex align-items-center justify-content-around">
+              <img src="../static/sidhu.avif" alt="" id="ImgName">
+              <div>
+                <p id="titleName"></p>
+                <p id="artistName"></p>
+                <p id="musicName" style="display: none;"></p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bootom-left2">
+            <button onclick="prev()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-skip-start" viewBox="0 0 16 16">
+                <path
+                  d="M4 4a.5.5 0 0 1 1 0v3.248l6.267-3.636c.52-.302 1.233.043 1.233.696v7.384c0 .653-.713.998-1.233.696L5 8.752V12a.5.5 0 0 1-1 0zm7.5.633L5.696 8l5.804 3.367z" />
+              </svg>
+            </button>
+            <button onclick="play()">
+              <svg xmlns="http://www.w3.org/2000/svg" class="pause" width="30" height="30" fill="currentColor"
+                class="bi bi-pause-fill" viewBox="0 0 16 16">
+                <path
+                  d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5m5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="play" style="display: none;" width="30" height="30"
+                fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+                <path
+                  d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
+              </svg>
+            </button>
+            <button onclick="next()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-skip-end"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.5 4a.5.5 0 0 0-1 0v3.248L5.233 3.612C4.713 3.31 4 3.655 4 4.308v7.384c0 .653.713.998 1.233.696L11.5 8.752V12a.5.5 0 0 0 1 0zM5 4.633 10.804 8 5 11.367z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bootom-left3" style="float: left;">
+            <svg xmlns="http://www.w3.org/2000/svg" class="three-dots mx-3" width="35" height="35" fill="currentColor"
+              class="bi bi-sliders" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1z" />
+            </svg>
+            <button style="background-color: transparent; border:none" onclick="mute()">
+              <svg xmlns="http://www.w3.org/2000/svg" class="unmute" width="40" height="40" fill="white"
+                class="bi bi-volume-up" viewBox="0 0 16 16">
+                <path
+                  d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303z" />
+                <path
+                  d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.48 5.48 0 0 1 11.025 8a5.48 5.48 0 0 1-1.61 3.89z" />
+                <path
+                  d="M10.025 8a4.5 4.5 0 0 1-1.318 3.182L8 10.475A3.5 3.5 0 0 0 9.025 8c0-.966-.392-1.841-1.025-2.475l.707-.707A4.5 4.5 0 0 1 10.025 8M7 4a.5.5 0 0 0-.812-.39L3.825 5.5H1.5A.5.5 0 0 0 1 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 7 12zM4.312 6.39 6 5.04v5.92L4.312 9.61A.5.5 0 0 0 4 9.5H2v-3h2a.5.5 0 0 0 .312-.11" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="mute" style="display: none;" width="40" height="40"
+                fill="white" class="bi bi-volume-mute" viewBox="0 0 16 16">
+                <path
+                  d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06M6 5.04 4.312 6.39A.5.5 0 0 1 4 6.5H2v3h2a.5.5 0 0 1 .312.11L6 10.96zm7.854.606a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0" />
+              </svg>
+            </button>
+            <input type="range" id="slider" name="slider" min="0" max="100" value="60">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" class="three-dots" fill="currentColor"
+              class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+              <path
+                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script>
+    var lastVolume = 1;
+    let tracks = [];
+    let currentTrackIndex = -1;
+
+
+    $('.card').each(function (index) {
+      const musicId = $(this).find('#music-player')[0];
+      const titleId = $(this).find('.card-text').text();
+      const artistId = $(this).find('.card-text2').text();
+      const imgId = $(this).find('.card-img-top').attr('src');
+
+      tracks.push({
+        audioElement: musicId,
+        title: titleId,
+        artist: artistId,
+        image: imgId
+      });
+    });
+
+
+    const play = () => {
+      const musicId2 = $('#musicName audio')[0];
+      if (musicId2) {
+        if (musicId2.paused) {
+          musicId2.play();
+          $('.play').css('display', 'none');
+          $('.pause').css('display', 'inline');
+        } else {
+          musicId2.pause();
+          $('.play').css('display', 'inline');
+          $('.pause').css('display', 'none');
+        }
+      }
+    }
+
+
+    const next = () => {
+      if (tracks.length === 0) return;
+      $('.play').css('display', 'none');
+      $('.pause').css('display', 'inline');
+
+      currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
+
+      const track = tracks[currentTrackIndex];
+      updatePlayer(track);
+      var musicId = $('#musicName audio')[0];
+      if (musicId) {
+        musicId.volume = lastVolume;  
+      }
+
+    }
+
+
+    const prev = () => {
+      if (tracks.length === 0) return;
+      $('.play').css('display', 'none');
+      $('.pause').css('display', 'inline');
+
+      currentTrackIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
+
+      const track = tracks[currentTrackIndex];
+      updatePlayer(track);
+      var musicId = $('#musicName audio')[0];
+      if (musicId) {
+        musicId.volume = lastVolume;  
+      }
+    }
+
+
+    const updatePlayer = (track) => {
+
+      $('#titleName').text(track.title);
+      $('#artistName').text(track.artist);
+      $('#ImgName').attr('src', track.image);
+      $('#musicName').html(track.audioElement);
+
+
+      $('audio').each(function () {
+        if (!this.paused) {
+          this.pause();
+          this.currentTime = 0;
+        }
+      });
+
+      track.audioElement.play();
+    }
+
+    $('.card').click(function () {
+      $('.botton-content').css('display', 'block');
+
+      const musicId = $(this).find('#music-player')[0];
+      const titleId = $(this).find('.card-text').text();
+      const artistId = $(this).find('.card-text2').text();
+      const imgId = $(this).find('.card-img-top').attr('src');
+
+      $('#titleName').text(titleId);
+      $('#artistName').text(artistId);
+      $('#ImgName').attr('src', imgId);
+      $('#musicName').html(musicId);
+
+      $('audio').each(function () {
+        if (!this.paused) {
+          this.pause();
+          this.currentTime = 0;
+        }
+      });
+
+
+      musicId.play();
+
+      currentTrackIndex = tracks.findIndex(track => track.audioElement === musicId);
+      
+      if (musicId) {
+        musicId.volume = lastVolume;  
+      }
+    });
+
+
+    $('#slider').on('input', function () {
+      var volume = $(this).val() / 100;
+      var musicId = $('#musicName audio')[0];
+
+      if (musicId) {
+        musicId.volume = volume;
+        lastVolume = volume;
+      }
+    });
+
+    const mute = () => {
+      var musicId = $('#musicName audio')[0];
+      musicId.muted = !musicId.muted;
+      if (musicId.muted) {
+        $('.unmute').css('display', 'none')
+        $('.mute').css('display', 'inline')
+      } else {
+        $('.unmute').css('display', 'inline')
+        $('.mute').css('display', 'none')
+      }
+    }
+
+  </script>
+
+  <!-- <script>
+    // play Function
+    const play = () => {
+      var musicId2 = $('#musicName audio')[0]
+
+      if (musicId2) {
+        if (musicId2.paused) {
+          musicId2.play();
+          $('.play').css('display', 'none');
+          $('.pause').css('display', 'inline');
+        } else {
+          musicId2.pause();
+          $('.play').css('display', 'inline');
+          $('.pause').css('display', 'none');
+        }
+
+      }
+    }
+    // next click
+    const next = () => {
+    
+    }
+
+    // card click
+    $('.card').click(function () {
+      $('.botton-content').css('display', 'block')
+      var musicId = $(this).find('#music-player')[0];
+      console.log(musicId);
+
+      var titleId = $(this).find('.card-text').text();
+      var artistId = $(this).find('.card-text2').text();
+      var imgId = $(this).find('.card-img-top').attr('src');
+
+      $('#titleName').text(titleId);
+      $('#artistName').text(artistId);
+      $('#ImgName').attr('src', imgId);
+      $('#musicName').html(musicId)
+
+
+      $('audio').each(function () {
+        if (!this.paused) {
+          this.pause();
+          this.currentTime = 0;
+        }
+      });
+      if (musicId) {
+        musicId.play();
+
+      }
+    });
+  </script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.border1 {
+
+    border: 2px solid red;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Itim", cursive;
+}
+
+.home-svg {
+    /* border:1px solid grey; */
+    border-radius: 50%;
+    background-color: rgb(36, 35, 35);
+
+    padding: 5px;
+}
+
+.home-svg svg {
+    color: #ffffffd6;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    width: 60px;
+    border-radius: 30%;
+    /* filter:invert(2) */
+}
+
+.navbar-nav input {
+    height: 50px;
+    margin-top: 4px;
+    margin-left: 10px;
+    color: white;
+    width: 450px;
+    padding-right: 200px;
+    border-radius: 30px;
+    padding-left: 25px;
+    background-color: rgb(36, 35, 35);
+
+    border: none;
+}
+
+.navbar-nav input::placeholder {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 358px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgb(20, 20, 20), rgb(20, 20, 20), rgb(20, 20, 20), rgb(12, 12, 12));
+
+
+}
+
+.sidebar svg {
+    width: 22px;
+    fill: rgb(163, 163, 163);
+}
+
+.sidebar h4 {
+    font-size: 20px;
+    margin: 5px 20px;
+    color: rgb(164, 164, 164);
+}
+
+.sidebar .btn {
+    font-size: 16px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    background: white;
+    border-radius: 80px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.card2 {
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(30, 30, 30), rgb(28, 28, 28));
+    border-radius: 10px;
+    margin: 18px 0;
+    padding: 15px;
+}
+
+.card2 h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card2 p {
+    font-size: 17px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.row li {
+    color: white;
+    margin: 5px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(165, 165, 165);
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+ol,
+ul {
+    padding-left: 0rem;
+}
+
+.last-btn {
+    border: 1px solid grey;
+    width: 110px;
+    padding: 0px 10px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.last-btn svg {
+    fill: white;
+}
+
+
+
+
+/* main container */
+.main-container {
+    border-radius: 15px;
+    padding: 20px 0;
+    background-image: linear-gradient(to bottom, rgb(29, 29, 29), rgb(20, 20, 20), rgb(20, 20, 20), rgb(12, 12, 12));
+}
+
+/* cards  */
+.card {
+    width: 160px;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.card-text {
+    color: white;
+    margin: 0px;
+    font-weight: 500;
+    padding: 0px;
+}
+
+.card-body {
+    padding: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card:hover {
+    /* border: 1px solid grey; */
+    background-color: rgb(35, 35, 35);
+}
+/* bottom content */
+.play{
+    display: no;
+}svg.play {
+    display: none;
+}
